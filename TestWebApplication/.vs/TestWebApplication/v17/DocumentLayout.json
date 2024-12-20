@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|d:\\dev\\github\\exam\\testwebapplication\\testwebapplication\\service\\myofficeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|solutionrelative:testwebapplication\\service\\myofficeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|d:\\dev\\github\\exam\\testwebapplication\\testwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|solutionrelative:testwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|d:\\dev\\github\\exam\\testwebapplication\\testwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|solutionrelative:testwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|d:\\dev\\github\\exam\\testwebapplication\\testwebapplication\\model\\myofficeacpd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E16FA20-D600-4F6F-9075-CAC35DF9DFE0}|TestWebApplication\\TestWebApplication.csproj|solutionrelative:testwebapplication\\model\\myofficeacpd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyOfficeService.cs",
+              "DocumentMoniker": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\Service\\MyOfficeService.cs",
+              "RelativeDocumentMoniker": "TestWebApplication\\Service\\MyOfficeService.cs",
+              "ToolTip": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\Service\\MyOfficeService.cs",
+              "RelativeToolTip": "TestWebApplication\\Service\\MyOfficeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:04:04.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "TestWebApplication\\Program.cs",
+              "ToolTip": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\Program.cs",
+              "RelativeToolTip": "TestWebApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:51:46.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "TestWebApplication\\appsettings.json",
+              "ToolTip": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\appsettings.json",
+              "RelativeToolTip": "TestWebApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T09:52:08.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyOfficeACPD.cs",
+              "DocumentMoniker": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\Model\\MyOfficeACPD.cs",
+              "RelativeDocumentMoniker": "TestWebApplication\\Model\\MyOfficeACPD.cs",
+              "ToolTip": "D:\\DEV\\GitHub\\exam\\TestWebApplication\\TestWebApplication\\Model\\MyOfficeACPD.cs",
+              "RelativeToolTip": "TestWebApplication\\Model\\MyOfficeACPD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:51:22.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
