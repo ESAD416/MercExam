@@ -115,12 +115,17 @@ BEGIN
 
     -- 紀錄操作插入到 Log
     DECLARE @LogReturnValues NVARCHAR(MAX);
+	DECLARE @GroupID UNIQUEIDENTIFIER;
+	DECLARE @ActionJSON NVARCHAR(MAX);		
+	SET @GroupID = NEWID();
+	SET @ActionJSON = CONCAT(@Action, ' record with ACPD_SID: ', @SID)
+
     EXEC [dbo].[usp_AddLog] 
         @_InBox_ReadID = 0, -- 預設為 0 
         @_InBox_SPNAME = 'usp_MyOffice_ACPD_CRUD', 
-        @_InBox_GroupID = NEWID(), -- 暫設NEWID()作為群組ID
+        @_InBox_GroupID = @GroupID, -- 暫設NEWID()作為群組ID
         @_InBox_ExProgram = @Action, -- 操作類型
-        @_InBox_ActionJSON = CONCAT(@Action, 'record with ACPD_SID: ', @SID),
+        @_InBox_ActionJSON = @ActionJSON,	-- 預設要為JSON字串，暫設一普通字串
         @_OutBox_ReturnValues = @LogReturnValues OUTPUT;
 
     -- 紀錄操作結果 (回傳的 log 資訊)
