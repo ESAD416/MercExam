@@ -97,7 +97,7 @@ BEGIN
     END
     ELSE IF @Action = 'SELECT'
     BEGIN
-        -- 查詢資料
+        -- 查詢資料並返回 JSON 格式
         SELECT 
             ACPD_SID, ACPD_Cname, ACPD_Ename, ACPD_Sname, ACPD_Email, 
             ACPD_Status, ACPD_Stop, ACPD_StopMemo, ACPD_LoginID, ACPD_LoginPWD,
@@ -107,7 +107,8 @@ BEGIN
             SELECT ACPD_SID
             FROM OPENJSON(@JsonData)
             WITH (ACPD_SID NVARCHAR(20))
-        );
+        )
+        FOR JSON AUTO;  -- 返回 JSON 格式結果
 
         SET @SID = (SELECT ACPD_SID FROM OPENJSON(@JsonData) WITH (ACPD_SID NVARCHAR(20)) AS j);
     END

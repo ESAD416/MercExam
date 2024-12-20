@@ -1,5 +1,6 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
+using TestWebApplication.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +11,6 @@ builder.Services.AddSingleton<IDbConnection>(sp =>
     var connectionString = builder.Configuration.GetConnectionString("MyDatabase");
     return new SqlConnection(connectionString);
 });
-
-builder.Services.AddSingleton<MyOfficeService>(); // 註冊服務類別
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
