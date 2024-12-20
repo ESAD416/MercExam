@@ -1,0 +1,9 @@
+感謝您給我這次機會來展示我的能力和完成這項任務。
+
+關於試題要求的將資料庫備份並上傳至 GitHub 的要求，由於我的本地端目前沒有資料庫環境，並且資料庫的建置過程花了較長時間來完成，你已在兩個小時內完成故晚上傳。
+
+雖然後續也提供了DB備份，且也經準備好了相應的T-SQL腳本: Myoffice_ACPD_CURD.sql，依照考題資料表內的系統資料庫規格表撰寫Stored Procedure。
+但配置資料庫的預設連接須至專案內的appsettings.json，ConnectionStrings下的MyDatabase進行修改並建置
+
+我目前WebAPI專案只完成了基本的MVC與簡易的RestfulAPI架構
+其中包含控制地址路徑的控制器(Controller)，執行與運行 Exec [Stored Procedure]的服務端(Service)與預計要存放資料數據的模型(模型)
